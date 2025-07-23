@@ -5,7 +5,7 @@ import ImageUpload from '../ImageUpload';
 import SteganographyProcessor from '../SteganographyProcessor';
 import Header from '../Header';
 import Hero from '../Hero';
-import Features from '..Features';
+import Features from '../Features';
 
 export default function Home() {
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
