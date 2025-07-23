@@ -1,11 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import ImageUpload from './components/ImageUpload';
-import SteganographyProcessor from './components/SteganographyProcessor';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Features from './components/Features';
+import ImageUpload from '../ImageUpload';
+import SteganographyProcessor from '../SteganographyProcessor';
+import Header from '../Header';
+import Hero from '../Hero';
+import Features from '..Features';
 
 export default function Home() {
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
