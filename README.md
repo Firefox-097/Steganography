@@ -1,30 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Image Steganography
 
-## Getting Started
+A web-based image steganography application that allows users to hide and retrieve secret messages from images.Started as a college project and later expanded into a real-world application.
 
-First, run the development server:
+## What is Steganography?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Steganography is the practice of concealing information inside another file, such as hiding text within a file, message, image, or video.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Encode secret messages into images
+- Decode hidden messages from images
+- Simple and user-friendly interface
+- Browser-based application
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Repository Contents
 
-To learn more about Next.js, take a look at the following resources:
+- Steganography.ipynb
+- Source code files
+- Project assets
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Firefox-097
+
+## Reference
+
+* https://www.geeksforgeeks.org/image-based-steganography-using-python/
+
+## Notes
+
+* This project is based on image steganography techniques for hiding and retrieving secret messages.
+* PNG images are recommended for best compatibility and reliability.
+* This project is intended for educational and learning purposes.
+Feel free to explore, learn, and contribute.
