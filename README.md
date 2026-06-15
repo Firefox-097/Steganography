@@ -13,6 +13,14 @@ Steganography is the practice of concealing information inside another file, suc
 - Simple and user-friendly interface
 - Browser-based application
 
+## How to Use
+
+1. Upload a suspicious image.
+2. Enter any secret message in text format needed to be encoded inside image.
+3. Click Encode.
+4. Save the new generated image.
+5. Use Decode section to retrieve hidden messages(if any).
+
 
 ## Repository Contents
 
